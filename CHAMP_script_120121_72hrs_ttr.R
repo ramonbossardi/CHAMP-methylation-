@@ -619,6 +619,6 @@ head(myGSEAtest$DMR)
 myCNA <- champ.CNA(intensity=myLoad$beta,pheno=myLoad$pd$Sample_Group,controlGroup='C',arraytype="EPIC")
 write.csv(myCNA$groupResult,file="./CNV_analysis_result.csv",quote=F,row.names = F)
 
-
+##END
 
 
